@@ -26,6 +26,6 @@ Hence, it is necessary to include one more joint (SPR) to make the mechanism hav
 
 Check Simulation.
 
-Pitch and Roll - RPS joint prevent the platform from moving from side to side.
+Pitch and Roll - RPS joint prevent the platform from taking yaw motion( = moving side to side).
 
 <img src="TVC/test2.gif">
