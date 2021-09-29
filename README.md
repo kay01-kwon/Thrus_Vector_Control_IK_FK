@@ -8,7 +8,7 @@ S 2 SPS and SPR Parallel manipulator
 
 Pitch Only Test
 
-<img src="TVC/test2_pitch.gif">
+<img src="TVC/test2_pitch.gif" width="40" height="40">
 
 Roll Only Test
 
