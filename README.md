@@ -22,7 +22,7 @@ The conical motion would take 3 degree of freedom(Roll, Pitch and Yaw) if the ma
 
 However, the number of actuator is less than the number of DOF that have to be controlled.
 
-In this sense, it is necessary to include one more joint (SPR) to make the mechanism have 2 DOF.
+Hence, it is necessary to include one more joint (SPR) to make the mechanism have 2 DOF.
 
 Check Simulation.
 
