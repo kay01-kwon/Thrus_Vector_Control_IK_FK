@@ -8,11 +8,11 @@ S 2 SPS and SPR Parallel manipulator
 
 Pitch Only Test
 
-<img src="TVC/test_pitch.gif">
+<img src="TVC/test2_pitch.gif">
 
 Roll Only Test
 
-<img src="TVC/test_roll.gif">
+<img src="TVC/test2_roll.gif">
 
 The number of actuators = 2 linear actuators
 
