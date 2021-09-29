@@ -8,11 +8,11 @@ S 2 SPS and SPR Parallel manipulator
 
 Pitch Only Test
 
-<img src="TVC/test2_pitch.gif" width="500" height="500">
+<img src="TVC/test2_pitch.gif" width="500" height="400">
 
 Roll Only Test
 
-<img src="TVC/test2_roll.gif">
+<img src="TVC/test2_roll.gif" width="500" height="400">
 
 The number of actuators = 2 linear actuators
 
@@ -28,4 +28,4 @@ Check Simulation.
 
 Pitch and Roll - RPS joint prevent the platform from taking yaw motion( = moving side to side).
 
-<img src="TVC/test2.gif">
+<img src="TVC/test2.gif" width="500" height="400">
