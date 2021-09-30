@@ -33,3 +33,7 @@ Check Simulation.
 Pitch and Roll - RPS joint prevent the platform from taking yaw motion( = moving side to side).
 
 <img src="TVC/test2.gif" width="500" height="400">
+
+main function: Forward Kinematics through Newton Raphson Method
+
+test function: Forward Kinematics through fsolve function
