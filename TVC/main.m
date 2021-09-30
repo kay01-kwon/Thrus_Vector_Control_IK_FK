@@ -22,9 +22,12 @@ P_b_r = [-RobotParam.r;RobotParam.a;0];
 B_a_l = [-RobotParam.r;-RobotParam.b;-RobotParam.h0];
 B_a_r = [-RobotParam.r;RobotParam.b;-RobotParam.h0];
 
-for i = 1:100
+figure(1)
+filename = 'test3.gif';
 
-rp_rad =5*[sin(0.1*(i-1));sin(0.1*(i-1))]*Deg2Rad;
+for i = 1:500
+
+rp_rad =10*[cos(0.1*(i-1));sin(0.1*(i-1))]*Deg2Rad;
 rp_rad_(i,:) = rp_rad';
 init_rp = rp_rad;
 
@@ -32,7 +35,19 @@ init_rp = rp_rad;
 
 rp_real(i,:) = NewtonRaphsonMethod(d_l(i),d_r(i),[0;0],RobotParam,100);
 DrawParallelMani(rp_real(i,:),RobotParam);
-pause(0.01)
+drawnow
+
+frame = getframe(1);
+img = frame2im(frame);
+
+[img_idx cm] = rgb2ind(img,256);
+
+    if i == 1
+        imwrite(img_idx,cm,filename,'gif','Loopcount',1,'DelayTime',1/100);
+    else
+        imwrite(img_idx,cm,filename,'gif','WriteMode','append','DelayTime',1/100);
+    end
+
 end
 
 figure(2)
