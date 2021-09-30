@@ -30,7 +30,7 @@ init_rp = rp_rad;
 
 [d_l(i), d_r(i)] = InverseKinematics(rp_rad,P_b_l,P_b_r,B_a_l,B_a_r);
 
-rp_real(i,:) = NewtonRaphsonMethod(d_l(i),d_r(i),init_rp',RobotParam,100);
+rp_real(i,:) = NewtonRaphsonMethod(d_l(i),d_r(i),[0;0],RobotParam,100);
 DrawParallelMani(rp_real(i,:),RobotParam);
 pause(0.01)
 end
