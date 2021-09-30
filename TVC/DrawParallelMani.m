@@ -1,7 +1,7 @@
 function DrawParallelMani(rp,Param)
 cla
 hold on;
-v=[1 0 0];
+v=[-5 2 5];
 view(v);
 grid on
 P_b_l = [-Param.r;-Param.a;0];
