@@ -37,3 +37,7 @@ Pitch and Roll - RPS joint prevent the platform from taking yaw motion( = moving
 main function: Forward Kinematics through Newton Raphson Method
 
 test function: Forward Kinematics through fsolve function
+
+link length data (Relationship betweeen Joint - roll, pitch)
+
+<img src="TVC/link_length_data.jpg">
